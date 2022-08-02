@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: GenBench
 email:
-description: Hello
+description: GenBench description
 twitter_username: GenBench
 github_username: GenBench
 minimal_mistakes_skin: default
