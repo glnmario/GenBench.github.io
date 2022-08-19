@@ -10,7 +10,7 @@ If you are interested in exploring the results of our taxonomy-based survey of o
 For a detailed description of the taxonomy and the survey, you can also have a look at [our paper]().
 
 <center>
-    <img src="/assets/images/taxonomy_infographic.png" alt="Infographic for the generalisation taxonomy">
+    <img src="/assets/images/taxonomy_infographic.pdf" alt="Infographic for the generalisation taxonomy">
 </center>
 
 
