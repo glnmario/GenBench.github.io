@@ -11,10 +11,10 @@ On this page you can view the results of our survey, in which more than 600 *ACL
 If you would like to contribute annotations for your paper or papers you think are missing, please [contribute](/contribute).
 
 Are you writing a paper about generalisation in NLP? We would happily provide you with visualisations through the interactive graphs listed on this page.
-If you hover over the graphs, you can click on the 📸 icon to download them in `.png` format, or you can contact us for custom adaptations of these graphs (email us at [genbench@gmail.com](genbench@mgail.com)).
+If you hover over the graphs, you can click on the 📸 (camera) or 💾 (save) icons to download them in `.png` format, or you can contact us for custom adaptations of these graphs (email us at [genbench@gmail.com](genbench@mgail.com)).
 
 ```
-@article{dubois2019location,
+@article{hupkes2022taxonomy,
   title={State-of-the-art generalisation research in NLP: a taxonomy and review},
   author={Hupkes, Dieuwke, and Giulianelli, Mario and Dankers, Verna and Artetxe, Mikel and Pimentel, Tiago et al.},
   year={2022}
