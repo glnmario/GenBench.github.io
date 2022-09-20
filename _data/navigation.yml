@@ -11,4 +11,5 @@ main:
   #   url: /taxonomy/
   - title: "About"
     url: /about/
-
+  - title: "Visualisations"
+    url: /visualisations/
