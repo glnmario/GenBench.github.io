@@ -1,6 +1,10 @@
 ---
 permalink: /taxonomy/
 title: "A taxonomy to characterise generalisation research"
+toc: true
+author_profile: false
+layout: single_wide
+toc_sticky: true
 ---
 
 The ability to generalise well is one of the primary desiderata of natural language processing, yet how 'good generalisation' should be defined and what it entails in practice is not well understood.
@@ -44,4 +48,3 @@ Add explanation.
 We would love to hear what you think about the taxonomy and include more papers in our survey.
 Did you also work on generalisation, and would you like to be included in our survey?
 Check instructions on our [survey page](/research)!
-
