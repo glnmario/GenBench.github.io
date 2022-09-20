@@ -13,3 +13,7 @@ main:
     url: /about/
   - title: "Visualisations"
     url: /visualisations/
+  - title: "The taxonomy"
+    url: /taxonomy/
+  - title: "Contribute"
+    url: /contribute/
