@@ -11,9 +11,9 @@ main:
   #   url: /taxonomy/
   - title: "About"
     url: /about/
-  - title: "Visualisations"
-    url: /visualisations/
-  - title: "The taxonomy"
-    url: /taxonomy/
-  - title: "Contribute"
-    url: /contribute/
+  # - title: "Visualisations"
+  #   url: /visualisations/
+  # - title: "The taxonomy"
+  #   url: /taxonomy/
+  # - title: "Contribute"
+  #   url: /contribute/
