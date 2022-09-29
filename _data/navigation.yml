@@ -1,19 +1,21 @@
 main:
-  # - title: "Posts"
-  #   url: /posts/
-  # - title: "Categories"
-  #   url: /categories/
-  # - title: "Tags"
-  #   url: /tags/
-  # - title: "Leaderboard"
-  #   url: /leaderboard/
-  #  - title: "Generalisation taxonomy"
-  #   url: /taxonomy/
-  - title: "About"
-    url: /about/
-  # - title: "Visualisations"
-  #   url: /visualisations/
-  # - title: "The taxonomy"
-  #   url: /taxonomy/
-  # - title: "Contribute"
-  #   url: /contribute/
+# - title: "Posts"
+#   url: /posts/
+# - title: "Categories"
+#   url: /categories/
+# - title: "Tags"
+#   url: /tags/
+# - title: "Leaderboard"
+#   url: /leaderboard/
+#  - title: "Generalisation taxonomy"
+#   url: /taxonomy/
+- title: "About"
+  url: /about/
+# - title: "Visualisations"
+#   url: /visualisations/
+#   - title: "What should I cite?"
+#   url: /references/
+# - title: "The taxonomy"
+#   url: /taxonomy/
+# - title: "Contribute"
+#   url: /contribute/
