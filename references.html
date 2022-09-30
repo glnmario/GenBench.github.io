@@ -365,15 +365,15 @@ You can use the menu below to find papers with different types of studies.
         <tr>
           <th>Year</th>
           <th>Title</th>
-          <th>Website</th>
+          <!-- <th>Website</th> -->
         </tr>
         </thead>
         <tbody>
         <tr v-for="(obj,i) in filtered" :key="i">
           <td>{{obj.year}}</td>
-          <td>{{obj.title}}</td>
+          <!-- <td>{{obj.title}}</td> -->
           <td>
-            <a :href="obj.Website" v-if="!!obj.Website">Link</a>
+              <a :href="obj.Website" v-if="!!obj.Website" target="_blank"> {{obj.title}} </a>
             <template v-else>-</template>
           </td>
         </tr>
