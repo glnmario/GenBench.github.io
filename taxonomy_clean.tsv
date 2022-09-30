@@ -359,6 +359,10 @@ xu-etal-2021-raise	2021	Raise a Child in Large Language Model: Towards Effective
 korner-etal-2021-classifying	2021	On Classifying whether Two Texts are on the Same Side of an Argument	https://aclanthology.org/2021.emnlp-main.795	practical	across domain	finetune-train/test	covariate	natural shifts
 korner-etal-2021-classifying	2021	On Classifying whether Two Texts are on the Same Side of an Argument	https://aclanthology.org/2021.emnlp-main.795	practical	robustness	finetune-train/test	covariate	generated shifts
 huang-etal-2021-shot	2021	Few-Shot Named Entity Recognition: An Empirical Baseline Study	https://aclanthology.org/2021.emnlp-main.813	practical	across domain	train-test	covariate	generated shifts
+huang-etal-2021-shot	2021	Few-Shot Named Entity Recognition: An Empirical Baseline Study	https://aclanthology.org/2021.emnlp-main.813	practical	compositional	train-test	covariate	artificially partitioned natural data
+huang-etal-2021-shot	2021	Few-Shot Named Entity Recognition: An Empirical Baseline Study	https://aclanthology.org/2021.emnlp-main.813	practical	across domain	pretrain-train	full	artificially partitioned natural data
+huang-etal-2021-shot	2021	Few-Shot Named Entity Recognition: An Empirical Baseline Study	https://aclanthology.org/2021.emnlp-main.813	practical	compositional	pretrain-train	full	artificially partitioned natural data
+huang-etal-2021-shot	2021	Few-Shot Named Entity Recognition: An Empirical Baseline Study	https://aclanthology.org/2021.emnlp-main.813	practical	compositional	pretrain-test	full	artificially partitioned natural data
 basu-roy-chowdhury-etal-2021-everything	2021	Is Everything in Order? A Simple Way to Order Sentences	https://aclanthology.org/2021.emnlp-main.841	intrinsic	robustness	finetune-train/test	covariate	natural shifts
 basu-roy-chowdhury-etal-2021-everything	2021	Is Everything in Order? A Simple Way to Order Sentences	https://aclanthology.org/2021.emnlp-main.841	intrinsic	across domain	finetune-train/test	covariate	natural shifts
 basu-roy-chowdhury-etal-2021-everything	2021	Is Everything in Order? A Simple Way to Order Sentences	https://aclanthology.org/2021.emnlp-main.841	intrinsic	robustness	finetune-train/test	covariate	artificially partitioned natural data
@@ -371,7 +375,7 @@ lewis-etal-2021-question	2021	Question and Answer Test-Train Overlap in Open-Dom
 sogaard-etal-2021-need	2021	We Need To Talk About Random Splits	https://aclanthology.org/2021.eacl-main.156	intrinsic	robustness	train-test	covariate	natural shifts
 weber-etal-2021-language	2021	Language Modelling as a Multi-Task Problem	https://aclanthology.org/2021.eacl-main.176	cognitive	structural	train-test	covariate	artificially partitioned natural data
 zhou-etal-2021-hidden	2021	Hidden Biases in Unreliable News Detection Datasets	https://aclanthology.org/2021.eacl-main.211	practical	robustness	finetune-train/test	covariate	natural shifts
-yaghoobzadeh-etal-2021-increasing	2021	Increasing Robustness to Spurious Correlations using Forgettable Examples	https://aclanthology.org/2021.eacl-main.291	practical	robustness	multiple	covariate	artificially partitioned natural data
+yaghoobzadeh-etal-2021-increasing	2021	Increasing Robustness to Spurious Correlations using Forgettable Examples	https://aclanthology.org/2021.eacl-main.291	practical	robustness	multiple	multiple	artificially partitioned natural data
 toshniwal-etal-2021-generalization	2021	On Generalization in Coreference Resolution	https://aclanthology.org/2021.crac-1.12	practical	across domain	finetune-train/test	covariate	natural shifts
 dankers-etal-2021-generalising	2021	Generalising to {G}erman Plural Noun Classe	https://aclanthology.org/2021.conll-1.8	cognitive	structural	train-test	covariate	generated shifts
 liu-chen-2021-improving	2021	Improving Multi-Party Dialogue Discourse Parsing via Domain Integration	https://aclanthology.org/2021.codi-main.11	practical	across domain	train-test	covariate	generated shifts
@@ -499,7 +503,6 @@ talman-chatzikyriakidis-2019-testing	2019	Testing the Generalization Power of Ne
 eljundi-etal-2019-hulmona	2019	h{ULM}on{A}: The Universal Language Model in {A}rabic	https://aclanthology.org/W19-4608	practical	across task	pretrain-train	full	natural shifts
 khaddaj-etal-2019-improved	2019	Improved Generalization of {A}rabic Text Classifiers	https://aclanthology.org/W19-4618	practical	across domain	train-test	covariate	artificially partitioned natural data
 garcia-silva-etal-2019-empirical	2019	An Empirical Study on Pre-trained Embeddings and Language Models for Bot Detection	https://aclanthology.org/W19-4317	practical	across task	pretrain-train	full	natural shifts
-oseki-etal-2019-inverting	2019	Inverting and Modeling Morphological Inflection	https://aclanthology.org/W19-4220	cognitive	structural	train-test	covariate	generated shifts
 subramanian-roth-2019-improving	2019	Improving Generalization in Coreference Resolution via Adversarial Training	https://aclanthology.org/S19-1021	practical	robustness	train-test	covariate	generated shifts
 pappas-henderson-2019-gile	2019	{GILE}: A Generalized Input-Label Embedding for Text Classification	https://aclanthology.org/Q19-1009	practical	robustness	train-test	covariate	artificially partitioned natural data
 warstadt-etal-2019-neural	2019	Neural Network Acceptability Judgments	https://aclanthology.org/Q19-1040	intrinsic	structural	train-test	covariate	artificially partitioned natural data
@@ -536,6 +539,7 @@ czarnowska-etal-2019-dont	2019	Don{'}t Forget the Long Tail! A Comprehensive Ana
 lu-etal-2019-look	2019	Look-up and Adapt: A One-shot Semantic Parser	https://aclanthology.org/D19-1104	practical	structural	train-test	covariate	artificially partitioned natural data
 lu-etal-2019-look	2019	Look-up and Adapt: A One-shot Semantic Parser	https://aclanthology.org/D19-1104	practical	across domain	train-test	covariate	natural shifts
 andrews-bishop-2019-learning	2019	Learning Invariant Representations of Social Media Users	https://aclanthology.org/D19-1178	practical	robustness	train-test	covariate	natural shifts
+wang-etal-2019-learning	2019	Learning Semantic Parsers from Denotations with Latent Structured Alignments and Abstract Programs	https://aclanthology.org/D19-1391	practical	robustness	train-test	covariate	artificially partitioned natural data
 geng-etal-2019-induction	2019	Induction Networks for Few-Shot Text Classification	https://aclanthology.org/D19-1403	practical	across domain	train-test	label	artificially partitioned natural data
 kumar-etal-2019-topics	2019	Topics to Avoid: Demoting Latent Confounds in Text Classification	https://aclanthology.org/D19-1425	practical	across domain	train-test	covariate	natural shifts
 li-etal-2019-compositional	2019	Compositional Generalization for Primitive Substitutions	https://aclanthology.org/D19-1438	cognitive	compositional	train-test	covariate	fully generated data
@@ -543,6 +547,8 @@ geiger-etal-2019-posing	2019	Posing Fair Generalization Tasks for Natural Langua
 sinha-etal-2019-clutrr	2019	{CLUTRR}: A Diagnostic Benchmark for Inductive Reasoning from Text	https://aclanthology.org/D19-1458	practical	compositional	finetune-train/test	covariate	fully generated data
 pham-etal-2019-generic	2019	Generic and Specialized Word Embeddings for Multi-Domain Machine Translation	https://aclanthology.org/2019.iwslt-1.26	practical	across domain	train-test	covariate	natural shifts
 pham-etal-2019-generic	2019	Generic and Specialized Word Embeddings for Multi-Domain Machine Translation	https://aclanthology.org/2019.iwslt-1.26	practical	robustness	train-test	covariate	natural shifts
+jagfeld-etal-2018-sequence	2018	Sequence-to-Sequence Models for Data-to-Text Natural Language Generation: Word- vs. Character-based Processing and Output Diversity	https://aclanthology.org/W18-6529	practical	robustness	train-test	covariate	generated shifts
+reed-etal-2018-neural	2018	Can Neural Generators for Dialogue Learn Sentence Planning and Discourse Structuring?	https://aclanthology.org/W18-6535	practical	robustness	train-test	covariate	fully generated data
 prickett-etal-2018-seq2seq	2018	{S}eq2{S}eq Models with Dropout can Learn Generalizable Reduplication	https://aclanthology.org/W18-5810	cognitive	structural	train-test	covariate	generated shifts
 bastings-etal-2018-jump	2018	Jump to better conclusions: {SCAN} both left and right	https://aclanthology.org/W18-5407	practical	compositional	train-test	covariate	fully generated data
 loula-etal-2018-rearranging	2018	Rearranging the Familiar: Testing Compositional Generalization in Recurrent Networks	https://aclanthology.org/W18-5413	cognitive	compositional	train-test	covariate	fully generated data
