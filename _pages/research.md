@@ -1,6 +1,11 @@
 ---
 permalink: /research/
 title: "Generalisation Research"
+
+excerpt: "Making generalisation testing the new status-quo in NLP"
+header:
+  <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
+  overlay_color: "#268"
 ---
 
 * Intro statement: on this page you can dynamically view our survey existing generalisation (with [link to explanations on the taxonomy page](/taxonomy) + survey)

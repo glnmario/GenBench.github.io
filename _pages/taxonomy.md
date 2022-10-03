@@ -5,6 +5,11 @@ toc: true
 author_profile: false
 layout: single_wide
 toc_sticky: true
+excerpt: "Making generalisation testing the new status-quo in NLP"
+header:
+  <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
+  overlay_color: "#268"
+
 ---
 
 The ability to generalise well is one of the primary desiderata of models for natural language processing, yet how "good generalisation" should be defined and what it entails in practice is not well understood.

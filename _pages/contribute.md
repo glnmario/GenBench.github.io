@@ -2,6 +2,11 @@
 permalink: /contribute/
 title: "Contribute"
 layout: single_wide
+
+excerpt: "Making generalisation testing the new status-quo in NLP"
+header:
+  <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
+  overlay_color: "#268"
 ---
 
 We welcome contributions of new papers to be included in our review.

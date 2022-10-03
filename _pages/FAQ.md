@@ -4,6 +4,11 @@ title: "Frequently Asked Annotation Questions"
 layout: single_wide
 toc: true
 toc_sticky: true
+
+excerpt: "Making generalisation testing the new status-quo in NLP"
+header:
+  <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
+  overlay_color: "#268"
 ---
 
 NB: work in progress

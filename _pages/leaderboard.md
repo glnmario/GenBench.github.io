@@ -1,6 +1,11 @@
 ---
 permalink: /leaderboard/
 title: "Leaderboard"
+
+excerpt: "Making generalisation testing the new status-quo in NLP"
+header:
+  <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
+  overlay_color: "#268"
 ---
 
 This is an example leaderboard, borrowed from the [Flores MT benchmark](https://dynabench.org/flores/Flores%20MT%20Evaluation%20(FULL)) on [Dynabench](https://dynabench.org/flores/Flores%20MT%20Evaluation%20(FULL)).
