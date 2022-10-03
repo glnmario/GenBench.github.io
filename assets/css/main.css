@@ -1286,3 +1286,32 @@ html { /* apply a natural box layout model to all elements */ box-sizing: border
 @media (min-width: 48em) { html { font-size: 16px; } }
 @media (min-width: 64em) { html { font-size: 16px; } }
 @media (min-width: 80em) { html { font-size: 18px; } }
+
+.team-wrapper {
+  float:left;
+  margin-bottom: 2em;
+}
+
+.team-img {
+  display: inline-block;
+  width: 20%;
+}
+
+.team-bio {
+  vertical-align:top;
+  display: inline-block;
+  width: 74%;
+  padding-left: 10px;
+}
+
+.team-bio a {
+  font-weight: bold;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}

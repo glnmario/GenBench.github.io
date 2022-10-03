@@ -30,6 +30,8 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+banner: "Making generalisation testing the new status-quo in NLP"
+
 include:
   - _pages
 
@@ -98,3 +100,9 @@ defaults:
 # tag_archive:
 #   type: liquid
 #   path: /tags/
+
+images-array:
+- image: DieuwkeHupkes.png
+  alt: Dieuwke Hupkes
+- image: DieuwkeHupkes.png
+  alt: Dieuwke Hupkes
