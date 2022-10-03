@@ -7,8 +7,8 @@ layout: single_wide
 toc_sticky: true
 ---
 
-The ability to generalise well is one of the primary desiderata of natural language processing, yet how 'good generalisation' should be defined and what it entails in practice is not well understood.
-To be able to better talk about generalisation research in NLP, and identify what is needed to move towards a more sound and exhaustive approach to test generalisation, we present a (nominal) axes-based taxonomy along which research can be categorised.
+The ability to generalise well is one of the primary desiderata of models for natural language processing, yet how "good generalisation" should be defined and what it entails in practice is not well understood.
+To be able to better talk about generalisation research in NLP, and identify what is needed to move towards a more sound and exhaustive approach to test generalisation, we present a axes-based taxonomy along which research can be categorised.
 Below the infographic, we describe the meaning of the different axes.
 If you are interested in exploring the results of our taxonomy-based review of over 400 generalisation research papers, check our [generalisation map exploration](/visualisations) page, or <a href="references">search through the references</a>.
 For a more detailed description of the taxonomy and the survey, have a look at [our paper]().
