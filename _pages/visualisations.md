@@ -7,6 +7,11 @@ layout: single_wide
 toc_sticky: true
 ---
 
+<!-- Load plotly.js into the DOM -->
+<script src='https://cdn.plot.ly/plotly-2.11.1.min.js'></script>
+<script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+
+
 On this page you can view the results of our review, which contains [taxonomy](/taxonomy) annotations of more than 600 *ACL papers.
 If you would like to contribute annotations for your paper or (new) papers you think are missing, please [contribute](/contribute).
 You can view the entries considered for our review on our [references](page).
@@ -39,7 +44,15 @@ You can see, for instance, that:
 - structural generalisation experiments are mostly motivated from a cognitive perspective, and are never about fairness;
 - fully generated data shfits tend to be used to create shifts between the train and test data.
 
-{% include interactive_figures/sankey.html %}
+
+<script type="module">
+import sankeyData from '../sankey.json' assert {type: "json" };
+
+
+Plotly.newPlot('sankey', sankeyData.data, sankeyData.layout, sankeyData.config, );
+</script>
+
+<div id='sankey' style='height:600px; width:100%;'><!-- Plotly chart will be drawn inside this DIV --></div>
 
 #### Chord diagram
 
