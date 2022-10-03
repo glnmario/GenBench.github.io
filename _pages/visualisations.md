@@ -44,15 +44,17 @@ You can see, for instance, that:
 - structural generalisation experiments are mostly motivated from a cognitive perspective, and are never about fairness;
 - fully generated data shfits tend to be used to create shifts between the train and test data.
 
+NB: this plot renders best on relatively wide screens
+
 
 <script type="module">
-import sankeyData from '../sankey.json' assert {type: "json" };
+import sankeyData from '../plot_data/sankey.json' assert {type: "json" };
 
 
 Plotly.newPlot('sankey', sankeyData.data, sankeyData.layout, sankeyData.config, );
 </script>
 
-<div id='sankey' style='height:600px; width:100%;'><!-- Plotly chart will be drawn inside this DIV --></div>
+<div id='sankey'><!-- Plotly chart will be drawn inside this DIV --></div>
 
 #### Chord diagram
 
