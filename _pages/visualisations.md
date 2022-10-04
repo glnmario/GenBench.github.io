@@ -57,7 +57,7 @@ Plot the development of individual axes over time.
 NB: goal is to include check-boxes like on the citation page, so that different plots can be 'generated' by the reader.
 
 <div>
-  <iframe id="showskill" style="height:600px;width:100%;border:none" scrolling=no src="/visualisation/barplot_time.html"></iframe>
+  <iframe id="barplot_time_outer" style="height:600px;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/barplot_time.html"></iframe>
 </div>
 
 
