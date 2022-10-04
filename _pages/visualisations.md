@@ -69,10 +69,8 @@ NB: this probably should be cleaned up first, do we already want to include it?
 
 ### Relations between axes in a heatmap
 
-Generate heatmaps to explore the relationships between different axes.
-
-NB: would rather have that there is just one here, and could we also add boxes that allow different normalisations?
-
+Below, you can generate heatmaps of the relations between the different axes.
+Use the radio buttons to indicate which axis you would like on the x- and y-axis, and choose how to normalise your plot.
 
 <div>
   <iframe id="heatmap_outer" style="height:750px;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/heatmap.html"></iframe>
