@@ -17,14 +17,45 @@
 <label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Percentage <input type="radio" name="normalisation" value="percentage" onclick="barPlotTime()"></label>
 </p>
 
-<div>
-  <iframe id="barplot_time_inner" frameborder="0" src="/visualisations/interactive_figures/barplot_time_motivation_count.html" style="height:100%;width:100%;border:none" scrolling=no></iframe>
+<div id="barplot_time_inner">
+
+    <!-- <iframe id="barplot_time_inner" frameborder="0" src="/visualisations/interactive_figures/barplot_time_motivation_count.html" style="height:100%;width:100%;border:none" scrolling=no></iframe> -->
+
 </div>
+
+<script src='https://cdn.plot.ly/plotly-2.14.0.min.js'></script>
+
 <script>
+
+<!-- Function to fetch plot -->
+function fetch_plot(axis1, axis2, normalisation) {
+    // Fix this var filename_dummy = axis+normalisation 
+    var filename = `../plot_data/heatmap_${axis1}_${axis2}_${normalisation}.json`
+    // var filename = `plot_data/heatmap_${axis}_${normalisation}.json`
+    fetch(filename)
+    .then(response => {
+        response.json().then(function(sankeyData) {
+        Plotly.newPlot('barplot_time_inner', sankeyData.data, sankeyData.layout, sankeyData.config )
+   });
+});
+}
+
+<!-- Generate plot -->
   function barPlotTime() {
     var norm = document.querySelector("input[name='normalisation']:checked").value;
     var axis = document.querySelector("input[name='axis']:checked").value;
-    document.getElementById("barplot_time_inner").src =
-      "/visualisations/interactive_figures/barplot_time_" + axis + "_" + norm + ".html";
+    // replace this with interactive plot fetching
+    // document.getElementById("barplot_time_inner").src =
+    //  "/visualisations/interactive_figures/barplot_time_" + axis + "_" + norm + ".html";
+    var axis2 = 'shift_locus';
+    fetch_plot(axis, axis2, 'row');
   }
+
+// fetch_plot(axis, normalisation)
+
+
+// Get output from radio buttons
+
+
+
 </script>
