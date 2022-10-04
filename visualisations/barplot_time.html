@@ -1,5 +1,5 @@
 <style>
-* { font-family: Roboto; }
+* { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
 </style>
 
 <b>Axis:</b>
@@ -18,7 +18,7 @@
   <iframe id="barplot_time_inner" frameborder="0" src="/visualisations/interactive_figures/barplot_time_motivation_count.html" style="height:100%;width:100%;border:none" scrolling=no></iframe>
 </div>
 <script>
-  function barPlotTime(axis) {
+  function barPlotTime() {
     var norm = document.querySelector("input[name='normalisation']:checked").value;
     var axis = document.querySelector("input[name='axis']:checked").value;
     document.getElementById("barplot_time_inner").src =
