@@ -1,0 +1,38 @@
+<style>
+* { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
+</style>
+
+<b>X-Axis:</b>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motivation <input type="radio" name="axis1" value="motivation" onclick="heatmap()" checked="checked"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generalisation type <input type="radio" name="axis1" value="generalisation_type" onclick="heatmap()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift type <input type="radio" name="axis1" value="shift_type" onclick="heatmap()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift locus <input type="radio" name="axis1" value="shift_locus" onclick="heatmap()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift source <input type="radio" name="axis1" value="shift_source" onclick="heatmap()"></label>
+<br />
+
+<b>Y-Axis:</b>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motivation <input type="radio" name="axis2" value="motivation" onclick="heatmap()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generalisation type <input type="radio" name="axis2" value="generalisation_type" onclick="heatmap()" checked="checked"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift type <input type="radio" name="axis2" value="shift_type" onclick="heatmap()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift locus <input type="radio" name="axis2" value="shift_locus" onclick="heatmap()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift source <input type="radio" name="axis2" value="shift_source" onclick="heatmap()"></label>
+<br />
+
+<b>Normalisation:</b>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Row <input type="radio" name="normalisation" value="row" onclick="heatmap()" checked="checked"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Column <input type="radio" name="normalisation" value="column" onclick="heatmap()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;None <input type="radio" name="normalisation" value="None" onclick="heatmap()"></label>
+<br />
+
+<div>
+  <iframe id="heatmap_inner" frameborder="0" src="/visualisations/interactive_figures/heatmap_motivation_generalisation_type_column.html" style="height:100%;width:100%;border:none" scrolling=no></iframe>
+</div>
+<script>
+  function heatmap() {
+    var norm = document.querySelector("input[name='normalisation']:checked").value;
+    var axis1 = document.querySelector("input[name='axis1']:checked").value;
+    var axis2 = document.querySelector("input[name='axis2']:checked").value;
+    document.getElementById("heatmap_inner").src =
+      "/visualisations/interactive_figures/heatmap_" + axis1 + "_" + axis2 + "_" + norm + ".html";
+  }
+</script>
