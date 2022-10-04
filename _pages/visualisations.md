@@ -5,6 +5,7 @@ toc: true
 author_profile: false
 layout: single_wide
 toc_sticky: true
+markdown: kramdown
 ---
 
 <!-- Load plotly.js into the DOM -->
@@ -70,7 +71,10 @@ Plot the development of individual axes over time.
 
 NB: goal is to include check-boxes like on the citation page, so that different plots can be 'generated' by the reader.
 
-{% include interactive_figures/over_time_motivation.html %}
+<div>
+  <iframe id="barplot_time_outer" style="height:600px;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/barplot_time.html"></iframe>
+</div>
+
 
 ### Individual axes over tasks
 
@@ -80,8 +84,9 @@ NB: this probably should be cleaned up first, do we already want to include it?
 
 ### Relations between axes in a heatmap
 
-Generate heatmaps to explore the relationships between different axes.
+Below, you can generate heatmaps of the relations between the different axes.
+Use the radio buttons to indicate which axis you would like on the x- and y-axis, and choose how to normalise your plot.
 
-NB: would rather have that there is just one here, and could we also add boxes that allow different normalisations?
-
-{% include interactive_figures/heatmap_data_shift.html %}
+<div>
+  <iframe id="heatmap_outer" style="height:750px;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/heatmap.html"></iframe>
+</div>
