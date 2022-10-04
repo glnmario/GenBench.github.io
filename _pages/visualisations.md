@@ -73,4 +73,7 @@ Generate heatmaps to explore the relationships between different axes.
 
 NB: would rather have that there is just one here, and could we also add boxes that allow different normalisations?
 
-{% include interactive_figures/heatmap_data_shift.html %}
+
+<div>
+  <iframe id="heatmap_outer" style="height:750px;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/heatmap.html"></iframe>
+</div>
