@@ -5,6 +5,7 @@ toc: true
 author_profile: false
 layout: single_wide
 toc_sticky: true
+markdown: kramdown
 ---
 
 On this page you can view the results of our review, which contains [taxonomy](/taxonomy) annotations of more than 600 *ACL papers.
@@ -55,7 +56,10 @@ Plot the development of individual axes over time.
 
 NB: goal is to include check-boxes like on the citation page, so that different plots can be 'generated' by the reader.
 
-{% include interactive_figures/over_time_motivation.html %}
+<div>
+  <iframe id="showskill" style="height:600px;width:100%;border:none" scrolling=no src="/visualisation/barplot_time.html"></iframe>
+</div>
+
 
 ### Individual axes over tasks
 
