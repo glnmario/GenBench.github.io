@@ -1,0 +1,30 @@
+<style>
+* { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
+</style>
+
+<p>
+<b>Axis:</b>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motivation <input type="radio" name="axis" value="motivation" onclick="barPlotTime()" checked="checked"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generalisation type <input type="radio" name="axis" value="generalisation_type" onclick="barPlotTime()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift type <input type="radio" name="axis" value="shift_type" onclick="barPlotTime()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift locus <input type="radio" name="axis" value="shift_locus" onclick="barPlotTime()"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shift source <input type="radio" name="axis" value="shift_source" onclick="barPlotTime()"></label>
+</p>
+
+</p>
+<b>Normalisation:</b>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Count <input type="radio" name="normalisation" value="count" onclick="barPlotTime()" checked="checked"></label>
+<label class="radio">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Percentage <input type="radio" name="normalisation" value="percentage" onclick="barPlotTime()"></label>
+</p>
+
+<div>
+  <iframe id="barplot_tasks_inner" frameborder="0" src="/visualisations/interactive_figures/tasks_barplot_motivation_count.html" style="height:100%;width:100%;border:none" scrolling=no></iframe>
+</div>
+<script>
+  function barPlotTime() {
+    var norm = document.querySelector("input[name='normalisation']:checked").value;
+    var axis = document.querySelector("input[name='axis']:checked").value;
+    document.getElementById("barplot_tasks_inner").src =
+      "/visualisations/interactive_figures/tasks_barplot_" + axis + "_" + norm + ".html";
+  }
+</script>
