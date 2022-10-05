@@ -22,7 +22,7 @@
         <div class="archive__item-body">
           {% if f.title %}
             <!-- <h2 class="archive__item-title" style="text-align: center;">{{ f.title }}</h2> -->
-            <div class="archive__item-title" style="text-align: center;font-size:medium;">{{ f.title }}</div>
+            <div class="archive__item-title" style="text-align: center;font-size:x-small;">{{ f.title }}</div>
           {% endif %}
 
           {% if f.excerpt %}

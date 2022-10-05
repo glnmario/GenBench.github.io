@@ -1132,8 +1132,8 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .feature__wrapper .archive__item-title { margin-bottom: 0; }
 
 .feature__item { position: relative; margin-bottom: 2em; font-size: 1.125em; }
-@media (min-width: 37.5em) { .feature__item { float: left; margin-bottom: 2em; width: 15%;}
-  .feature__item:nth-child(6n + 1) { clear: both; margin-left: 0; }
+@media (min-width: 37.5em) { .feature__item { float: left; margin-bottom: 2em; width: 10%;}
+  .feature__item:nth-child(6n + 1) { clear: both; margin-left: 15%; }
   .feature__item:nth-child(6n + 2) { clear: none; margin-left: 1.6949152542%; }
   .feature__item:nth-child(6n + 3) { clear: none; margin-left: 1.6949152542%; }
   .feature__item:nth-child(6n + 4) { clear: none; margin-left: 1.6949152542%; }
