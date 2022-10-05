@@ -1308,6 +1308,11 @@ html { /* apply a natural box layout model to all elements */ box-sizing: border
   font-weight: bold;
 }
 
+.people li {
+  display: inline;
+  white-space: nowrap
+}
+
 .img-circle {
   border-radius: 50%;
 }
