@@ -1320,3 +1320,22 @@ html { /* apply a natural box layout model to all elements */ box-sizing: border
 .rounded-circle {
   border-radius: 50% !important;
 }
+
+#design-cast {
+  position: center;
+  overflow: hidden;
+  }
+  .member {
+      float:left;
+      width:15%;
+      margin:1% 1% 45px 1%;
+  }
+  .name {
+      bottom:0px;
+      text-align: center;
+      float: center;
+  }
+  .member img {
+      width: 100%;
+      display: block;
+  }
