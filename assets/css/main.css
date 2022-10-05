@@ -1324,16 +1324,21 @@ html { /* apply a natural box layout model to all elements */ box-sizing: border
 #design-cast {
   position: center;
   overflow: hidden;
+  display: block;
+  margin: auto;
+  margin-left: 100px;
+  margin-right: 10px;
   }
   .member {
       float:left;
-      width:15%;
-      margin:1% 1% 45px 1%;
+      width:12%;
+      margin:1% 1% 1% 1%;
   }
   .name {
       bottom:0px;
       text-align: center;
       float: center;
+      font-size: 1vw;
   }
   .member img {
       width: 100%;
