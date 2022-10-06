@@ -92,6 +92,14 @@ feature_row_team:
     alt: "Maria Ryskina"
     title: "Maria Ryskina"
     class: img-thumbnail rounded-circle
+  - image_path: img/team/default.png
+    alt: "Ece Takmaz"
+    title: "Ece Takmaz"
+    class: img-thumbnail rounded-circle
+  - image_path: img/team/LeilaKhalatbari.jpg
+    alt: "Leila Khalatbari"
+    title: "Leila Khalatbari"
+    class: img-thumbnail rounded-circle
 ---
 
 {% include feature_row id="feature_row_team" type="team" %}
