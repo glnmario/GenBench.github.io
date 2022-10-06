@@ -1160,6 +1160,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .feature__item--team .feature__item-teaser { max-height: 200px; overflow: hidden; } }
 .feature__item--team .archive__item-body { padding-left: 1.6949152542%; padding-right: 1.6949152542%; }
 .feature__item--team .archive__item-title { text-align: center; font-size: small; }
+.feature__item--team .archive__item-excerpt { text-align: center; font-size: small; }
 .feature__item--team a.btn::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 
 .feature__item--left { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; font-size: 1.125em; }
