@@ -69,7 +69,10 @@ If you would like to investigate the relations between all axes, take a look at 
 Each axis has its own colour scheme, and the node labels indicate both the axis's name and the labels within that axis.
 If you hover over a node or click on that node, the diagram highlights the connections to other nodes.
 
-{% include interactive_figures/chord_diagram.html %}
+
+<div align="center">
+  <iframe id="chord_diagram" style="display:block;height:max(900px,80vh);width:70%;border:none" scrolling=no frameborder="0" src="/visualisations/interactive_figures/chord_diagram.html"></iframe>
+</div>
 
 ### Individual axes over time
 
