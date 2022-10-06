@@ -87,7 +87,7 @@ Here, you can visualise how the different axes values are distributed over diffe
 Use the radio buttons to indicate which taxonomy axis you would like to view, click on the tasks to remove them from the plot.
 
 <div>
-  <iframe id="barplot_tasks_outer" style="height:100%;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/tasks_barplot.html"></iframe>
+  <iframe id="barplot_tasks_outer" style="height:50vh;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/tasks_barplot.html"></iframe>
 </div>
 
 ### Relations between axes in a heatmap
