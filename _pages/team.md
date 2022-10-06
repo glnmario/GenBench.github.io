@@ -13,12 +13,12 @@ feature_row_team:
   - image_path: img/team/DieuwkeHupkes.png
     alt: "Dieuwke Hupkes"
     title: "Dieuwke Hupkes"
-    excerpt: Dieuwke is great!
+    excerpt: "Project leader"
     class: img-thumbnail rounded-circle
   - image_path: img/team/MikelArtetxe.jpg
     alt: "Mikel Artetxe"
     title: "Mikel Artetxe"
-    excerpt: Mikel is great too!
+    excerpt: 
     class: img-thumbnail rounded-circle
   - image_path: img/team/KhuyagbaatarBatsuren.jpg
     alt: "Khuyagbaatar Batsuren"
