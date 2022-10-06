@@ -7,15 +7,17 @@ main:
 #   url: /tags/
 # - title: "Leaderboard"
 #   url: /leaderboard/
-#  - title: "Generalisation taxonomy"
-#   url: /taxonomy/
-- title: "About"
-  url: /about/
-# - title: "Visualisations"
-#   url: /visualisations/
-#   - title: "What should I cite?"
-#   url: /references/
+- title: "The generalisation taxonomy"
+  url: /taxonomy/
+    # - title: "About"
+    #   url: /
+- title: "Visual exploration"
+  url: /visualisations/
+- title: "Get references"
+  url: /references/
 # - title: "The taxonomy"
 #   url: /taxonomy/
-# - title: "Contribute"
-#   url: /contribute/
+- title: "Contribute"
+  url: /contribute/
+- title: "Team"
+  url: /team/
