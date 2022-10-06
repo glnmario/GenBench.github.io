@@ -58,7 +58,7 @@ NB: this plot renders best on relatively wide screens
 import sankeyData from '../plot_data/sankey.json' assert {type: "json" };
 
 
-Plotly.newPlot('sankey', sankeyData.data, sankeyData.layout, sankeyData.config, );
+Plotly.newPlot('sankey', sankeyData.data, sankeyData.layout, {responsive: true} );
 </script>
 
 <div id='sankey'><!-- Plotly chart will be drawn inside this DIV --></div>
