@@ -17,8 +17,9 @@ Please refer to the [taxonomy paper](../taxonomy_paper.pdf) for an explanation o
 To make the annotation easier, we also provide an [FAQ](https://genbench.github.io/contribute/FAQ) page and a set of simple guidelines, in the form of the annotation diagram below. 
 It is possible for a paper to have multiple experiments with different axis values: in that case, you will have to walk through the diagram multiple times. 
 Bear in mind that the diagram is a simplified version of the full taxonomy and, when in doubt, consult the taxonomy paper.
-Along with the axes values, we will ask you to provide the url of the paper, basic contact information, and to answer a few optional questions about the paper. 
-If you would like to propose corrections for an entry currently included in the review, indicate so at the beginning of the form and please provide the same url the [online review](https://genbench.github.io/references/) points to. 
+Along with the axes values, we will ask you to provide the url of the paper, basic contact information, and to answer a few questions about the paper. 
+If you would like to propose corrections for an entry currently included in the review, indicate so at the beginning of the form and provide the same url the [online review](https://genbench.github.io/references/) links to.
+An article can occur in the review multiple times, please double check that there is no entry with the same values you propose.
 Submissions will be double checked by the GenBench team and the online review will be updated. 
 
 Many thanks for your contribution!
