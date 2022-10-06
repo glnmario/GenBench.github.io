@@ -73,9 +73,8 @@ If you hover over a node or click on that node, the diagram highlights the conne
 
 ### Individual axes over time
 
-Plot the development of individual axes over time.
-
-NB: goal is to include check-boxes like on the citation page, so that different plots can be 'generated' by the reader.
+Visualise how distribution over the axes values changes over time.
+Use the radio buttons to indicate which axis you would like to view, and to choose how to normalise your plot.
 
 <div>
   <iframe id="barplot_time_outer" style="height:750px;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/barplot_time.html"></iframe>
@@ -84,7 +83,8 @@ NB: goal is to include check-boxes like on the citation page, so that different 
 
 ### Individual axes over tasks
 
-NB: this probably should be cleaned up first, do we already want to include it?
+Here, you can visualise how the different axes values are distributed over different tasks.
+Use the radio buttons to indicate which taxonomy axis you would like to view, click on the tasks to remove them from the plot.
 
 <div>
   <iframe id="barplot_tasks_outer" style="height:750px;width:100%;border:none" scrolling=no frameborder="0" src="/visualisations/tasks_barplot.html"></iframe>
@@ -92,7 +92,7 @@ NB: this probably should be cleaned up first, do we already want to include it?
 
 ### Relations between axes in a heatmap
 
-Below, you can generate heatmaps of the relations between the different axes.
+Generate heatmaps of the relations between the different axes.
 Use the radio buttons to indicate which axis you would like on the x- and y-axis, and choose how to normalise your plot.
 
 <div>
