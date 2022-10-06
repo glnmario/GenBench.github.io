@@ -4,7 +4,7 @@ title: "Team"
 layout: splash
 author_profile: false
 
-excerpt: "Making state-of-the-art generalisation testing the new status-quo in NLP"
+excerpt: "The GenBench team"
 header:
   <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
   overlay_color: "#268"
@@ -13,10 +13,12 @@ feature_row_team:
   - image_path: img/team/DieuwkeHupkes.png
     alt: "Dieuwke Hupkes"
     title: "Dieuwke Hupkes"
+    excerpt: "Project leader"
     class: img-thumbnail rounded-circle
   - image_path: img/team/MikelArtetxe.jpg
     alt: "Mikel Artetxe"
     title: "Mikel Artetxe"
+    excerpt: 
     class: img-thumbnail rounded-circle
   - image_path: img/team/KhuyagbaatarBatsuren.jpg
     alt: "Khuyagbaatar Batsuren"
@@ -85,6 +87,18 @@ feature_row_team:
   - image_path: img/team/default.png
     alt: "Zhijing Jin"
     title: "Zhijing Jin"
+    class: img-thumbnail rounded-circle
+  - image_path: img/team/MariaRyskina.jpg
+    alt: "Maria Ryskina"
+    title: "Maria Ryskina"
+    class: img-thumbnail rounded-circle
+  - image_path: img/team/default.png
+    alt: "Ece Takmaz"
+    title: "Ece Takmaz"
+    class: img-thumbnail rounded-circle
+  - image_path: img/team/LeilaKhalatbari.jpg
+    alt: "Leila Khalatbari"
+    title: "Leila Khalatbari"
     class: img-thumbnail rounded-circle
 ---
 

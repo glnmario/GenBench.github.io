@@ -1141,11 +1141,11 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
 .feature__item a.btn::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 
 .feature__item--tile { position: relative; margin-bottom: 2em; font-size: 1.5em;}
-@media (min-width: 37.5em) { .feature__item--tile { float: left; margin-bottom: 0; width: 32%; }
-  .feature__item--tile:nth-child(3n + 1) { clear: both; margin-left: 0; }
-  .feature__item--tile:nth-child(3n + 2) { clear: none; margin-left: 2%; }
-  .feature__item--tile:nth-child(3n + 3) { clear: none; margin-left: 2%; }
-  .feature__item--tile .feature__item-teaser { max-height: 200px; overflow: hidden; } }
+@media (min-width: 37.5em) { .feature__item--tile { float: left; margin-bottom: 1em; width: 30%; border: 2px solid #268; border-radius: 2%}
+  .feature__item--tile:nth-child(3n + 1) { clear: both; margin-left: 0;}
+  .feature__item--tile:nth-child(3n + 2) { clear: none; margin-left: 5%;}
+  .feature__item--tile:nth-child(3n + 3) { clear: none; margin-left: 5%;}
+  .feature__item--tile .feature__item-teaser { max-height: 200px; overflow: hidden; margin-bottom: 0;} }
 .feature__item--tile .archive__item-body { padding-left: 1.6949152542%; padding-right: 1.6949152542%; text-align: center;}
 .feature__item--tile a.btn::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; text-align: center; }
 
@@ -1160,6 +1160,7 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .feature__item--team .feature__item-teaser { max-height: 200px; overflow: hidden; } }
 .feature__item--team .archive__item-body { padding-left: 1.6949152542%; padding-right: 1.6949152542%; }
 .feature__item--team .archive__item-title { text-align: center; font-size: small; }
+.feature__item--team .archive__item-excerpt { text-align: center; font-size: small; }
 .feature__item--team a.btn::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
 
 .feature__item--left { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; font-size: 1.125em; }
