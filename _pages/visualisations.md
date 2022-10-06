@@ -26,7 +26,7 @@ If you are curious about our conclusions based on these results, have a look at 
 ## In need of visualisations for your paper?
 Are you writing a paper about generalisation in NLP and would you like to motivate your work with some graphics?
 We would happily provide you with visualisations through the interactive graphs listed on this page.
-If you hover over the graphs, you can click on the 📸 (camera) or 💾 (save) icons to download them in `.png` format, or you can contact us for custom adaptations of these graphs (email us at [genbench@gmail.com](genbench@mgail.com)).
+If you hover over the graphs, you can click on the 📸 (camera) or 💾 (save) icons to download them in `.png` format, or you can contact us for custom adaptations of these graphs (send us a message via twitter).
 
 ```
 @article{hupkes2022taxonomy,
