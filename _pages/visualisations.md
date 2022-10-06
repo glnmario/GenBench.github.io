@@ -1,11 +1,16 @@
 ---
 permalink: /visualisations/
 title: "Inside the taxonomy: visualisations"
+excerpt: "Explore generalisation research in NLP visually"
 toc: true
 author_profile: false
 layout: single_wide
 toc_sticky: true
 markdown: kramdown
+header:
+  <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
+  overlay_color: "#268"
+
 ---
 
 <!-- Load plotly.js into the DOM -->

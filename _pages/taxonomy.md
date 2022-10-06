@@ -1,11 +1,11 @@
 ---
 permalink: /taxonomy/
-title: "A taxonomy to characterise generalisation research"
+title: "The generalisation taxonomy"
 toc: true
 author_profile: false
 layout: single_wide
 toc_sticky: true
-excerpt: "Making generalisation testing the new status-quo in NLP"
+excerpt: "Characterise and understand generalisation research in NLP"
 header:
   <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
   overlay_color: "#268"
