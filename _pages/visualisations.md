@@ -35,6 +35,7 @@ If you hover over the graphs, you can click on the 📸 (camera) or 💾 (save) 
   year={2022}
 }
 ```
+[Download bib entry](../hupkes2022taxonomy.bib)
 
 ## Explore visualisations
 
