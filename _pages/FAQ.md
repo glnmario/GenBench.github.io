@@ -5,13 +5,13 @@ layout: single_wide
 toc: true
 toc_sticky: true
 
-excerpt: "Making generalisation testing the new status-quo in NLP"
 header:
   <!-- overlay_image: /assets/images/unsplash-image-1.jpg -->
   overlay_color: "#268"
 ---
 
-NB: work in progress
+On this page, we record frequently asked questions that come up when characterising papers with our taxonomy.
+If you have a question that is not on this page, please reach out to <a href="mailto:genbench@gmail.com">genbench@gmail.com</a>.
 
 ## Questions about the motivation
 
